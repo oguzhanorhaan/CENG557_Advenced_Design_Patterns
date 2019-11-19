@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+    <Folder Include="Business\" />
+    <Folder Include="Presentation\" />
+    <Folder Include="Business\Models\" />
+    <Folder Include="Business\Interfaces\" />
+    <Folder Include="Business\Models\Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Business\Interfaces\deneme.cs" />
+    <Compile Remove="Business\Interfaces\IFile.cs" />
+    <Compile Remove="DataAccess\IFileHelper.cs" />
+    <Compile Remove="Business\Interfaces\IBase.cs" />
+    <Compile Remove="Business\Models\GenericClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+</Project>
