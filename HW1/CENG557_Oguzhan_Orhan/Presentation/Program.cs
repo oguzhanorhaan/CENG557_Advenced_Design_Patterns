@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using CENG557_Oguzhan_Orhan.Presentation;
 
 namespace CENG557_Oguzhan_Orhan
@@ -8,9 +8,7 @@ namespace CENG557_Oguzhan_Orhan
         private static AbstractConsole console;
         static void Main(string[] args)
         {
-            //TODO: Load data
             launchConsole();
-       
         }
 
         private static void launchConsole()
