@@ -1,8 +1,10 @@
 package Actuators;
 
+import pubsub.Message;
 import pubsub.service.PubSubService;
 import pubsub.subscriber.AbstractSubscriber;
 import pubsub.subscriber.Subscriber;
+import utils.MessageType;
 
 public abstract class PhoneCallController extends AbstractSubscriber {
 
@@ -19,5 +21,17 @@ public abstract class PhoneCallController extends AbstractSubscriber {
 	@Override
 	public void getMessagesForSubscriberOfTopic(String topic, PubSubService pubSubService) {
 		pubSubService.getMessagesForSubscriberOfTopic(topic, this);
+	}
+
+	@Override
+	public void controlMessages() {
+		for (Message message : getSubscriberMessages()) {
+			if (message.getPayload() == MessageType.CRITIC.getValue()) {
+				//TODO Handle
+			}
+			else {
+				System.out.println(message.getTopic() + " message not critic");
+			}
+		}
 	}
 }

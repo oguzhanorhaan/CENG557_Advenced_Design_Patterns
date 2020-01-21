@@ -16,4 +16,8 @@ public enum MessageChannel {
     private MessageChannel(String channel) {
         this.channel = channel;
     }
+
+    public String getValue() {
+        return this.channel;
+    }
 }

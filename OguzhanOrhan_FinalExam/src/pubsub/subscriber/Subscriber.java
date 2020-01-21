@@ -1,6 +1,8 @@
 package pubsub.subscriber;
 
+import pubsub.Message;
 import pubsub.service.PubSubService;
+import utils.MessageType;
 
 public class Subscriber extends AbstractSubscriber {
 	//Add subscriber with PubSubService for a topic
@@ -19,5 +21,17 @@ public class Subscriber extends AbstractSubscriber {
 			pubSubService.getMessagesForSubscriberOfTopic(topic, this);
 			
 		}
+
+	@Override
+	public void controlMessages() {
+		for (Message message : getSubscriberMessages()) {
+			if (message.getPayload() == MessageType.CRITIC.getValue()) {
+				//TODO Handle
+			}
+			else {
+				System.out.println(message.getTopic() + " message not critic");
+			}
+		}
+	}
 
 }

@@ -25,6 +25,8 @@ public abstract class AbstractSubscriber {
 		
 		//Request specifically for messages related to topic from PubSubService
 		public abstract void getMessagesForSubscriberOfTopic(String topic, PubSubService pubSubService);
+
+		public abstract void controlMessages();
 		
 		//Print all messages received by the subscriber 
 		public void printMessages(){
