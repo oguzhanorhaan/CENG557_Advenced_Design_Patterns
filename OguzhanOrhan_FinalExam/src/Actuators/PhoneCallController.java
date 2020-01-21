@@ -7,7 +7,7 @@ import pubsub.subscriber.Subscriber;
 public abstract class PhoneCallController extends AbstractSubscriber {
 
 	@Override
-	public void addSubscriber(String topic, PubSubService pubSubService) {
+	public void subscribeTo(String topic, PubSubService pubSubService) {
 		pubSubService.addSubscriber(topic, this);
 	}
 

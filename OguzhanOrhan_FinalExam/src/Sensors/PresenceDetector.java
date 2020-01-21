@@ -1,7 +1,14 @@
 package Sensors;
 
+import pubsub.Message;
+import pubsub.publisher.IPublisher;
 import pubsub.publisher.Publisher;
+import pubsub.service.PubSubService;
 
-public class PresenceDetector extends Publisher {
+public class PresenceDetector implements IPublisher {
 
+    @Override
+    public void publish(Message message, PubSubService pubSubService) {
+        pubSubService.addMessageToQueue(message);
+    }
 }

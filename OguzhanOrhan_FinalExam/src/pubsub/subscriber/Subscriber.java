@@ -5,7 +5,7 @@ import pubsub.service.PubSubService;
 public class Subscriber extends AbstractSubscriber {
 	//Add subscriber with PubSubService for a topic
 	
-		public void addSubscriber(String topic, PubSubService pubSubService){
+		public void subscribeTo(String topic, PubSubService pubSubService){
 			pubSubService.addSubscriber(topic, this);
 		}
 		

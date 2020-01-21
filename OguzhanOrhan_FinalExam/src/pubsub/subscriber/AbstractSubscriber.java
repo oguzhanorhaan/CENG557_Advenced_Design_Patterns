@@ -18,7 +18,7 @@ public abstract class AbstractSubscriber {
 		}
 		
 		//Add subscriber with PubSubService for a topic
-		public abstract void addSubscriber(String topic, PubSubService pubSubService);
+		public abstract void subscribeTo(String topic, PubSubService pubSubService);
 		
 		//Unsubscribe subscriber with PubSubService for a topic
 		public abstract void unSubscribe(String topic, PubSubService pubSubService);

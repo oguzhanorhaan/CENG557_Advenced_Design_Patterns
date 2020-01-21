@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02d726cc-73fb-431e-8106-59bd1e6ecb92" name="Default Changelist" comment="" />
+    <list default="true" id="4c643a1d-d77c-4cb8-84af-5b6286e68136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/MessageChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/LightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/LightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/ShutterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/ShutterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/SirenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/SirenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sensors/DoorOpenDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/DoorOpenDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sensors/GlassBreakDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/GlassBreakDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sensors/PresenceDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/PresenceDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sensors/SmokeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/SmokeDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sensors/SunsetDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/SunsetDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sensors/TemperatureDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/TemperatureDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sensors/WaterDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/WaterDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pubsub/subscriber/AbstractSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/subscriber/AbstractSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pubsub/subscriber/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/subscriber/Subscriber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1WhJna95hYpw9AFRoApq0nTySxI" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1WhLHrDgBkZaPeFmIosIksS5LGg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -33,26 +64,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02d726cc-73fb-431e-8106-59bd1e6ecb92" name="Default Changelist" comment="" />
-      <created>1579596061136</created>
+      <changelist id="4c643a1d-d77c-4cb8-84af-5b6286e68136" name="Default Changelist" comment="" />
+      <created>1579596794783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579596061136</updated>
+      <updated>1579596794783</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1579596156858">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="810" y="407" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579596864591">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1579596156858" />
-    <state x="810" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579596101659">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="810" y="407" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1920.977@0.23.1920.977" timestamp="1579596864591" />
+    <state x="734" y="403" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579597008281">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="810" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579596101659" />
-    <state x="639" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1579596070601">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="734" y="403" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1920.977@0.23.1920.977" timestamp="1579597008281" />
+    <state x="639" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579596849617">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579596070601" />
+    <state x="639" y="344" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1579596849617" />
   </component>
 </project>
