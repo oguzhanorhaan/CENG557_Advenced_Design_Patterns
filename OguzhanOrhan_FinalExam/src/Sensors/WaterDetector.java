@@ -2,9 +2,9 @@ package Sensors;
 
 import pubsub.Message;
 import pubsub.publisher.IPublisher;
-import pubsub.publisher.Publisher;
 import pubsub.service.PubSubService;
 import utils.MessageChannel;
+import utils.MessageType;
 
 public class WaterDetector  implements IPublisher {
 
@@ -14,4 +14,10 @@ public class WaterDetector  implements IPublisher {
             pubSubService.addMessageToQueue(message);
         }
     }
+
+	@Override
+	public void generateMessage(PubSubService pubSubService) {
+		 Message waterMessage = new Message(MessageChannel.WATER.getValue(), MessageType.NOT_CRITIC.getValue());
+		 publish(waterMessage, pubSubService);	
+	}
 }

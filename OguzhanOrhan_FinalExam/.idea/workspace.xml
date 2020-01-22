@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c643a1d-d77c-4cb8-84af-5b6286e68136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/MessageType.java" afterDir="false" />
+    <list default="true" id="83e1dd6d-0893-4d34-8308-51ec969a2c28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OguzhanOrhan_FinalExam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OguzhanOrhan_FinalExam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Actuators/LightController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/LightController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Actuators/PhoneCallController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/PhoneCallController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Actuators/PushNotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/PushNotificationController.class" afterDir="false" />
@@ -16,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/bin/Devices/MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/MobilePhone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Devices/Siren.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/Siren.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Devices/WallPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/WallPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Sensors/DoorOpenDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Sensors/DoorOpenDetector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Sensors/GlassBreakDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Sensors/GlassBreakDetector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Sensors/PresenceDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Sensors/PresenceDetector.class" afterDir="false" />
@@ -25,16 +28,19 @@
       <change beforePath="$PROJECT_DIR$/bin/Sensors/WaterDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Sensors/WaterDetector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/publisher/IPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/publisher/IPublisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pubsub/publisher/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/publisher/Publisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pubsub/publisher/Publisher.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/service/PubSubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/service/PubSubService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/subscriber/AbstractSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/subscriber/AbstractSubscriber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/subscriber/Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/subscriber/Subscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/utils/MessageChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/utils/MessageChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/utils/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/utils/MessageType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actuators/LightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/LightController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actuators/ShutterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/ShutterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actuators/SirenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/SirenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/DoorOpenDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/DoorOpenDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/GlassBreakDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/GlassBreakDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/PresenceDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/PresenceDetector.java" afterDir="false" />
@@ -42,27 +48,21 @@
       <change beforePath="$PROJECT_DIR$/src/Sensors/SunsetDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/SunsetDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/TemperatureDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/TemperatureDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/WaterDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/WaterDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pubsub/publisher/IPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/publisher/IPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pubsub/publisher/Publisher.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pubsub/subscriber/AbstractSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/subscriber/AbstractSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pubsub/subscriber/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/subscriber/Subscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/MessageChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MessageChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MessageType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1WhLHrDgBkZaPeFmIosIksS5LGg" />
+  <component name="ProjectId" id="1WiRnL8TZvypnD4dzNBAcJ6cgZx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -71,21 +71,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="OguzhanOrhan_FinalExam" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -104,46 +92,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c643a1d-d77c-4cb8-84af-5b6286e68136" name="Default Changelist" comment="" />
-      <created>1579596794783</created>
+      <changelist id="83e1dd6d-0893-4d34-8308-51ec969a2c28" name="Default Changelist" comment="" />
+      <created>1579630594548</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579596794783</updated>
+      <updated>1579630594548</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1579617251099">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1579631132322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579631132322" />
+    <state x="810" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579677781112">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1579617251099" />
-    <state x="810" y="407" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579596864591">
-      <screen x="0" y="23" width="1920" height="977" />
-    </state>
-    <state x="810" y="407" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1920.977@0.23.1920.977" timestamp="1579596864591" />
-    <state x="734" y="403" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579597008281">
-      <screen x="0" y="23" width="1920" height="977" />
-    </state>
-    <state x="734" y="403" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1920.977@0.23.1920.977" timestamp="1579597008281" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1579617824056">
+    <state x="810" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579677781112" />
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1579677757801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579617824056" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1579617824055">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579617824055" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1579617824054">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579617824054" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1579617824056">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579617824056" />
-    <state x="639" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579596849617">
-      <screen x="0" y="23" width="1920" height="977" />
-    </state>
-    <state x="639" y="344" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1579596849617" />
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579677757801" />
   </component>
 </project>

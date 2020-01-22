@@ -2,9 +2,9 @@ package Sensors;
 
 import pubsub.Message;
 import pubsub.publisher.IPublisher;
-import pubsub.publisher.Publisher;
 import pubsub.service.PubSubService;
 import utils.MessageChannel;
+import utils.MessageType;
 
 public class SmokeDetector implements IPublisher {
 
@@ -16,4 +16,11 @@ public class SmokeDetector implements IPublisher {
     }
 
     //TODO: Generate messages method should be added
+    
+    public void generateMessage(PubSubService pubSubService) {
+    	//TODO: Add timer
+    	Message smokeMessage = new Message(MessageChannel.SMOKE.getValue(), MessageType.CRITIC.getValue());
+    	publish(smokeMessage, pubSubService);
+    	
+    }
 }

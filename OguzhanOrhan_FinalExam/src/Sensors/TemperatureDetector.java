@@ -2,9 +2,9 @@ package Sensors;
 
 import pubsub.Message;
 import pubsub.publisher.IPublisher;
-import pubsub.publisher.Publisher;
 import pubsub.service.PubSubService;
 import utils.MessageChannel;
+import utils.MessageType;
 
 public class TemperatureDetector implements IPublisher {
 
@@ -14,4 +14,10 @@ public class TemperatureDetector implements IPublisher {
             pubSubService.addMessageToQueue(message);
         }
     }
+
+	@Override
+	public void generateMessage(PubSubService pubSubService) {
+		 Message temperatureMessage = new Message(MessageChannel.TEMPERATURE.getValue(), MessageType.CRITIC.getValue());
+		 publish(temperatureMessage, pubSubService);		
+	}
 }

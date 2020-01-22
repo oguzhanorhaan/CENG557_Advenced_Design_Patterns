@@ -16,15 +16,19 @@ public abstract class AbstractSubscriber {
 		public void setSubscriberMessages(List<Message> subscriberMessages) {
 			this.subscriberMessages = subscriberMessages;
 		}
-		
-		//Add subscriber with PubSubService for a topic
-		public abstract void subscribeTo(String topic, PubSubService pubSubService);
-		
-		//Unsubscribe subscriber with PubSubService for a topic
-		public abstract void unSubscribe(String topic, PubSubService pubSubService);
+
+		public void subscribeTo(String topic, PubSubService pubSubService) {
+		pubSubService.addSubscriber(topic, this);
+	}
+
+		public void unSubscribe(String topic, PubSubService pubSubService) {
+		pubSubService.removeSubscriber(topic, this);
+	}
 		
 		//Request specifically for messages related to topic from PubSubService
-		public abstract void getMessagesForSubscriberOfTopic(String topic, PubSubService pubSubService);
+		public void getMessagesForSubscriberOfTopic(String topic, PubSubService pubSubService) {
+			pubSubService.getMessagesForSubscriberOfTopic(topic, this);
+		}
 
 		public abstract void controlMessages();
 		
