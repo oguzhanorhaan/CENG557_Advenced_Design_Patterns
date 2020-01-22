@@ -4,7 +4,7 @@ import pubsub.Message;
 import pubsub.service.PubSubService;
 import utils.MessageType;
 
-public class LightControllerAbstract extends AbstractBaseController {
+public class LightController extends AbstractBaseController {
 
     //When light can be opened or closed
         @Override

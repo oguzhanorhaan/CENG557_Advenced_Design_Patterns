@@ -12,7 +12,7 @@ public class WallPanel extends AbstractDevice {
     public void controlMessages(PubSubService service) {
         for (Message message: getSubscriberMessages()) {
             if (message.getTopic() == MessageChannel.TEMPERATURE.getValue()) {
-                System.out.println("TEMPERATURE level is "+message.getPayload()); //payload can be customized
+                System.out.println(" DEVICE => WallPanel --> Channel TEMPERATURE level is "+message.getPayload()); //payload can be customized
             }
         }
     }

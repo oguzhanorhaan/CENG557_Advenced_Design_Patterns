@@ -10,11 +10,11 @@ public class Light extends AbstractDevice {
     public void controlMessages(PubSubService service) {
         for (Message message: getSubscriberMessages()) {
             if (message.getTopic() == MessageChannel.PRESENCE.getValue()) {
-               System.out.println("PRESENCE -There is someone in the house, message from PRESENCE Detector, opening lights");
+               System.out.println("DEVICE => LIGHT --> Channel PRESENCE -There is someone in the house, message from PRESENCE Detector, opening lights");
 
             }
             else if (message.getTopic() == MessageChannel.LIGHT.getValue()) {
-                System.out.println("LIGHT - Open signal received from sunsetDetector, opening lights");
+                System.out.println("DEVICE => LIGHT --> Channel LIGHT - Open signal received from sunsetDetector, opening lights");
             }
         }
     }

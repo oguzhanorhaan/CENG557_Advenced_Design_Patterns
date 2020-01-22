@@ -1,11 +1,6 @@
 import Actuators.*;
 import Devices.*;
-import Sensors.DoorOpenDetector;
-import Sensors.GlassBreakDetector;
-import Sensors.SmokeDetector;
-import Sensors.SunsetDetector;
-import Sensors.TemperatureDetector;
-import Sensors.WaterDetector;
+import Sensors.*;
 import pubsub.publisher.ISensor;
 import pubsub.service.PubSubService;
 import utils.MessageChannel;
@@ -21,23 +16,23 @@ public class Main {
         ISensor waterDetector = new WaterDetector();
         
 
-        AbstractBaseController lightController = new LightControllerAbstract();
-        AbstractBaseController sirenController = new SirenControllerAbstract();
-        AbstractBaseController phoneController = new PhoneCallControllerAbstract();
-        AbstractBaseController notificationController = new PushNotificationControllerAbstract();
-        AbstractBaseController shutterController = new ShutterControllerAbstract();
-        AbstractBaseController temperatureController = new ShutterControllerAbstract();
+        AbstractBaseController lightController = new LightController();
+        AbstractBaseController sirenController = new SirenController();
+        AbstractBaseController phoneController = new PhoneCallController();
+        AbstractBaseController notificationController = new PushNotificationController();
+        AbstractBaseController shutterController = new ShutterController();
+        AbstractBaseController temperatureController = new TemperatureController();
 
 
         PubSubService pubSubService = new PubSubService();
 
         //Declare Messages and Publish Messages to PubSubService
-        smokeDetector.generateMessage(pubSubService);
         lightDetector.generateMessage(pubSubService);
+        smokeDetector.generateMessage(pubSubService);
         doorMotionDetector.generateMessage(pubSubService);
         glassBreakDetector.generateMessage(pubSubService);
         temperatureDetector.generateMessage(pubSubService);
-        waterDetector.generateMessage(pubSubService); 
+        waterDetector.generateMessage(pubSubService);
          
          
         //Declare Subscribers (CONSTRAINTS)
@@ -61,9 +56,8 @@ public class Main {
         
         temperatureController.subscribeTo(MessageChannel.TEMPERATURE.getValue(), pubSubService);
 
-        
-        
-        //Trying unSubscribing a subscriber
+
+        //For trying unSubscribing a subscriber
         //sirenController.unSubscribe(MessageChannel.SMOKE.getValue(), pubSubService);
 
         //Broadcast message to all subscribers. After broadcast, messageQueue will be empty in PubSubService
@@ -86,30 +80,22 @@ public class Main {
         shutterController.printMessages();
 
         System.out.println("\nMessages of temperatureController  are: ");
-        temperatureController.printMessages();
+        temperatureController.printMessages(); 
+
+        System.out.println("-------------------------------------------------\n");
 
 
         lightController.controlMessages(pubSubService);
-        System.out.println("---------------------------------");
 
         sirenController.controlMessages(pubSubService);
-        System.out.println("---------------------------------");
 
         phoneController.controlMessages(pubSubService);
-        System.out.println("---------------------------------");
 
         notificationController.controlMessages(pubSubService);
-        System.out.println("---------------------------------");
 
         shutterController.controlMessages(pubSubService);
-        System.out.println("---------------------------------");
 
         temperatureController.controlMessages(pubSubService);
-        System.out.println("---------------------------------");
-
-
-
-
 
 
         //Init & Subscribe Devices to Controllers
@@ -129,16 +115,19 @@ public class Main {
         siren.subscribeTo(MessageChannel.SMOKE.getValue(), pubSubService);
         siren.subscribeTo(MessageChannel.WATER.getValue(), pubSubService);
 
-        wallPanel.subscribeTo(MessageChannel.PRESENCE.getValue(), pubSubService);
+        wallPanel.subscribeTo(MessageChannel.TEMPERATURE.getValue(), pubSubService);
+
 
 
         pubSubService.broadcast();
 
 
-        light.controlMessages(pubSubService);
+
+       light.controlMessages(pubSubService);
         System.out.println("---------------------------------");
 
-        mobilePhone.controlMessages(pubSubService);
+       mobilePhone.controlMessages(pubSubService);
+
         System.out.println("---------------------------------");
 
         siren.controlMessages(pubSubService);
