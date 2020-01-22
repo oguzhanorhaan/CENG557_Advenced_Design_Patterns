@@ -30,8 +30,6 @@ public abstract class AbstractSubscriber {
 			pubSubService.getMessagesForSubscriberOfTopic(topic, this);
 		}
 
-		public abstract void controlMessages();
-		
 		//Print all messages received by the subscriber 
 		public void printMessages(){
 			for(Message message : subscriberMessages){

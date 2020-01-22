@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e1dd6d-0893-4d34-8308-51ec969a2c28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actuators/AbstractBaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actuators/LightControllerAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actuators/PhoneCallControllerAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actuators/PushNotificationControllerAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actuators/ShutterControllerAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actuators/SirenControllerAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actuators/TemperatureControllerAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pubsub/publisher/IAlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pubsub/publisher/ISensor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OguzhanOrhan_FinalExam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OguzhanOrhan_FinalExam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/LightController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/LightController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/PhoneCallController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/PhoneCallController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/PushNotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/PushNotificationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/ShutterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/ShutterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/SirenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/SirenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/TemperatureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Actuators/TemperatureController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Devices/IDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/IDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Actuators/LightController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Actuators/PhoneCallController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Actuators/PushNotificationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Actuators/ShutterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Actuators/SirenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Actuators/TemperatureController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Devices/IDevice.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Devices/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/Light.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Devices/MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/MobilePhone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Devices/Siren.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/Siren.class" afterDir="false" />
@@ -28,18 +34,22 @@
       <change beforePath="$PROJECT_DIR$/bin/Sensors/WaterDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Sensors/WaterDetector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/publisher/IPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/publisher/IPublisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pubsub/publisher/Publisher.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/service/PubSubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/service/PubSubService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/subscriber/AbstractSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/subscriber/AbstractSubscriber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pubsub/subscriber/Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pubsub/subscriber/Subscriber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/utils/MessageChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/utils/MessageChannel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/utils/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/utils/MessageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/LightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/LightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/ShutterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/ShutterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/SirenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/SirenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/LightController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/ShutterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/SirenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/AbstractPubSubController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Devices/IDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/AbstractDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Devices/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Devices/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Devices/Siren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/Siren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Devices/WallPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/WallPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/DoorOpenDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/DoorOpenDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/GlassBreakDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/GlassBreakDetector.java" afterDir="false" />
@@ -49,15 +59,21 @@
       <change beforePath="$PROJECT_DIR$/src/Sensors/TemperatureDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/TemperatureDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sensors/WaterDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensors/WaterDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pubsub/publisher/IPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/publisher/IPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pubsub/publisher/Publisher.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pubsub/subscriber/AbstractSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/subscriber/AbstractSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/MessageChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MessageChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pubsub/subscriber/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pubsub/subscriber/Subscriber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -71,9 +87,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Devices" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="OguzhanOrhan_FinalExam" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -105,10 +141,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579631132322" />
+    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1579692128608">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1579692128608" />
     <state x="810" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579677781112">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="810" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579677781112" />
+    <state x="722" y="149" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579683832946">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="722" y="149" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579683832946" />
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579683320396">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579683320396" />
+    <state width="1878" height="235" key="GridCell.Tab.0.bottom" timestamp="1579697962264">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579697962264" />
+    <state width="1878" height="235" key="GridCell.Tab.0.center" timestamp="1579697962263">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="235" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579697962263" />
+    <state width="1878" height="235" key="GridCell.Tab.0.left" timestamp="1579697962263">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="235" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579697962263" />
+    <state width="1878" height="235" key="GridCell.Tab.0.right" timestamp="1579697962264">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="235" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579697962264" />
     <state x="639" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1579677757801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -1,5 +1,19 @@
 package Devices;
 
-public class WallPanel implements IDevice {
+import Actuators.AbstractBaseController;
+import pubsub.Message;
+import pubsub.service.PubSubService;
+import pubsub.subscriber.AbstractSubscriber;
+import utils.MessageChannel;
 
+public class WallPanel extends AbstractDevice {
+
+    @Override
+    public void controlMessages(PubSubService service) {
+        for (Message message: getSubscriberMessages()) {
+            if (message.getTopic() == MessageChannel.TEMPERATURE.getValue()) {
+                System.out.println("TEMPERATURE level is "+message.getPayload()); //payload can be customized
+            }
+        }
+    }
 }

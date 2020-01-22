@@ -21,17 +21,4 @@ public class Subscriber extends AbstractSubscriber {
 			pubSubService.getMessagesForSubscriberOfTopic(topic, this);
 			
 		}
-
-	@Override
-	public void controlMessages() {
-		for (Message message : getSubscriberMessages()) {
-			if (message.getPayload() == MessageType.CRITIC.getValue()) {
-				//TODO Handle
-			}
-			else {
-				System.out.println(message.getTopic() + " message not critic");
-			}
-		}
-	}
-
 }

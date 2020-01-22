@@ -1,49 +1,37 @@
-import Actuators.LightController;
-import Actuators.PhoneCallController;
-import Actuators.PushNotificationController;
-import Actuators.ShutterController;
-import Actuators.SirenController;
+import Actuators.*;
+import Devices.*;
 import Sensors.DoorOpenDetector;
 import Sensors.GlassBreakDetector;
 import Sensors.SmokeDetector;
 import Sensors.SunsetDetector;
 import Sensors.TemperatureDetector;
 import Sensors.WaterDetector;
-import pubsub.Message;
-import pubsub.publisher.IPublisher;
+import pubsub.publisher.ISensor;
 import pubsub.service.PubSubService;
-import pubsub.subscriber.AbstractSubscriber;
 import utils.MessageChannel;
-import utils.MessageType;
 
 public class Main {
     public static void main(String[] args) {
         //Instantiate publishers, subscribers and PubSubService
-        IPublisher lightDetector = new SunsetDetector();
-        IPublisher smokeDetector = new SmokeDetector();
-        IPublisher doorMotionDetector = new DoorOpenDetector();
-        IPublisher glassBreakDetector = new GlassBreakDetector();
-        IPublisher temperatureDetector = new TemperatureDetector();
-        IPublisher waterDetector = new WaterDetector();
+        ISensor lightDetector = new SunsetDetector();
+        ISensor smokeDetector = new SmokeDetector();
+        ISensor doorMotionDetector = new DoorOpenDetector();
+        ISensor glassBreakDetector = new GlassBreakDetector();
+        ISensor temperatureDetector = new TemperatureDetector();
+        ISensor waterDetector = new WaterDetector();
         
 
-        AbstractSubscriber lightController = new LightController();
-        AbstractSubscriber sirenController = new SirenController();
-        AbstractSubscriber phoneController = new PhoneCallController();
-        AbstractSubscriber notificationController = new PushNotificationController();
-        AbstractSubscriber shutterController = new ShutterController();
-        AbstractSubscriber temperatureController = new ShutterController();
-
-
+        AbstractBaseController lightController = new LightControllerAbstract();
+        AbstractBaseController sirenController = new SirenControllerAbstract();
+        AbstractBaseController phoneController = new PhoneCallControllerAbstract();
+        AbstractBaseController notificationController = new PushNotificationControllerAbstract();
+        AbstractBaseController shutterController = new ShutterControllerAbstract();
+        AbstractBaseController temperatureController = new ShutterControllerAbstract();
 
 
         PubSubService pubSubService = new PubSubService();
 
         //Declare Messages and Publish Messages to PubSubService
-        
-       
-
-
         smokeDetector.generateMessage(pubSubService);
         lightDetector.generateMessage(pubSubService);
         doorMotionDetector.generateMessage(pubSubService);
@@ -54,12 +42,14 @@ public class Main {
          
         //Declare Subscribers (CONSTRAINTS)
         lightController.subscribeTo(MessageChannel.LIGHT.getValue(),pubSubService);
-        
+
         sirenController.subscribeTo(MessageChannel.SMOKE.getValue(),pubSubService);
-        
+        sirenController.subscribeTo(MessageChannel.WATER.getValue(), pubSubService);
+
         phoneController.subscribeTo(MessageChannel.SMOKE.getValue(), pubSubService);
         phoneController.subscribeTo(MessageChannel.GLASS.getValue(), pubSubService);
         phoneController.subscribeTo(MessageChannel.WATER.getValue(), pubSubService);
+
         
         notificationController.subscribeTo(MessageChannel.TEMPERATURE.getValue(), pubSubService);
         notificationController.subscribeTo(MessageChannel.PRESENCE.getValue(), pubSubService);
@@ -73,9 +63,6 @@ public class Main {
 
         
         
-        
-        
-
         //Trying unSubscribing a subscriber
         //sirenController.unSubscribe(MessageChannel.SMOKE.getValue(), pubSubService);
 
@@ -83,14 +70,81 @@ public class Main {
         pubSubService.broadcast();
 
         //Print messages of each subscriber to see which messages they got
-        System.out.println("Messages of LightController Subscriber are: ");
+        System.out.println("Messages of LightController  are: ");
         lightController.printMessages();
 
-        System.out.println("\nMessages of NotificationController Subscriber are: ");
+        System.out.println("\nMessages of NotificationController  are: ");
         notificationController.printMessages();
 
-        //TODO: Handle in class
-        lightController.controlMessages();
-        sirenController.controlMessages();
+        System.out.println("\nMessages of sirenController  are: ");
+        sirenController.printMessages();
+
+        System.out.println("\nMessages of phoneController  are: ");
+        phoneController.printMessages();
+
+        System.out.println("\nMessages of shutterController  are: ");
+        shutterController.printMessages();
+
+        System.out.println("\nMessages of temperatureController  are: ");
+        temperatureController.printMessages();
+
+
+        lightController.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        sirenController.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        phoneController.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        notificationController.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        shutterController.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        temperatureController.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+
+
+
+
+
+        //Init & Subscribe Devices to Controllers
+        AbstractDevice light = new Light();
+        AbstractDevice mobilePhone = new MobilePhone();
+        AbstractDevice siren = new Siren();
+        AbstractDevice wallPanel = new WallPanel();
+
+        light.subscribeTo(MessageChannel.PRESENCE.getValue(),pubSubService);
+        light.subscribeTo(MessageChannel.LIGHT.getValue(),pubSubService);
+
+        mobilePhone.subscribeTo(MessageChannel.SMOKE.getValue(), pubSubService);
+        mobilePhone.subscribeTo(MessageChannel.GLASS.getValue(), pubSubService);
+        mobilePhone.subscribeTo(MessageChannel.WATER.getValue(), pubSubService);
+        mobilePhone.subscribeTo(MessageChannel.MOTION.getValue(), pubSubService);
+
+        siren.subscribeTo(MessageChannel.SMOKE.getValue(), pubSubService);
+        siren.subscribeTo(MessageChannel.WATER.getValue(), pubSubService);
+
+        wallPanel.subscribeTo(MessageChannel.PRESENCE.getValue(), pubSubService);
+
+
+        pubSubService.broadcast();
+
+
+        light.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        mobilePhone.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        siren.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
+
+        wallPanel.controlMessages(pubSubService);
+        System.out.println("---------------------------------");
     }
 }

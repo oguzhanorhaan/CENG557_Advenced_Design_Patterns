@@ -2,11 +2,12 @@ package Sensors;
 
 import pubsub.Message;
 import pubsub.publisher.IPublisher;
+import pubsub.publisher.ISensor;
 import pubsub.service.PubSubService;
 import utils.MessageChannel;
 import utils.MessageType;
 
-public class PresenceDetector implements IPublisher {
+public class PresenceDetector implements ISensor {
 
     @Override
     public void publish(Message message, PubSubService pubSubService) {
@@ -17,7 +18,7 @@ public class PresenceDetector implements IPublisher {
 
 	@Override
 	public void generateMessage(PubSubService pubSubService) {
-		 Message presenceMessage = new Message(MessageChannel.PRESENCE.getValue(), MessageType.CRITIC.getValue());
+		 Message presenceMessage = new Message(MessageChannel.PRESENCE.getValue(), MessageType.CRITIC.getValue()+ " from PresenceDetector");
 		 publish(presenceMessage, pubSubService);
 	}
 }
