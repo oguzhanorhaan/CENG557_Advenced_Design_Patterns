@@ -4,3 +4,5 @@ Includes the homeworks of the Advenced Design Patterns course in Izmir Institute
 ++ *First homework includes Factory Design Pattern, State Design Pattern, Chain of Responsibility Design Pattern, Singleton Pattern.*
 
 ++ *Second homework includes Abstract Factory Design Pattern, Strategy Design Pattern usages and Sequence and UML Diagrams.*
+  
+++ *Final project includes Pub-Sub Design Pattern usage, Sequence Diagram, UML Diagram and Feature Model that is generated from FeatureIDE.*
