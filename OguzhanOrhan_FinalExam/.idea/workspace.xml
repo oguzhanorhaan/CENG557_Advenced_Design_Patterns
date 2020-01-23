@@ -1,84 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83e1dd6d-0893-4d34-8308-51ec969a2c28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/LightControllerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/PhoneCallControllerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/PushNotificationControllerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/ShutterControllerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/SirenControllerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Actuators/TemperatureControllerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Devices/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/Light.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Devices/MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/MobilePhone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Devices/Siren.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/Siren.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Devices/WallPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Devices/WallPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pubsub/subscriber/Subscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/LightControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/LightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/PhoneCallControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PhoneCallController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/PushNotificationControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/PushNotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/ShutterControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/ShutterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/SirenControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/SirenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actuators/TemperatureControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actuators/TemperatureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Devices/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Devices/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Devices/Siren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/Siren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Devices/WallPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devices/WallPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pubsub/subscriber/Subscriber.java" beforeDir="false" />
-    </list>
+    <list default="true" id="98d03e75-3256-4e45-bdaf-58ba6e13621a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="UML Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1WiRnL8TZvypnD4dzNBAcJ6cgZx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1WlCDbFwXxr9urZt1YzLnP9ujlF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="Devices" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="OguzhanOrhan_FinalExam" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -97,70 +34,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="83e1dd6d-0893-4d34-8308-51ec969a2c28" name="Default Changelist" comment="" />
-      <created>1579630594548</created>
+      <changelist id="98d03e75-3256-4e45-bdaf-58ba6e13621a" name="Default Changelist" comment="" />
+      <created>1579714675428</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579630594548</updated>
+      <updated>1579714675428</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="23" key="#Project_Structure" timestamp="1579631132322">
+    <state x="184" y="7" key="SettingsEditor" timestamp="1579714867546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579631132322" />
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1579692128608">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579714867546" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1579714928343">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1579692128608" />
-    <state x="810" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579677781112">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579714928343" />
+    <state x="395" y="113" width="856" height="501" key="net.trustx.simpleuml.components.BirdViewFrame" timestamp="1579715326769">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="810" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579677781112" />
-    <state x="722" y="149" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579683832946">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="722" y="149" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579683832946" />
-    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579683320396">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579683320396" />
-    <state width="1878" height="235" key="GridCell.Tab.0.bottom" timestamp="1579704352425">
-      <screen x="0" y="23" width="1920" height="981" />
-    </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579704093907" />
-    <state width="1878" height="235" key="GridCell.Tab.0.bottom/0.23.1920.981@0.23.1920.981" timestamp="1579704352425" />
-    <state width="1878" height="235" key="GridCell.Tab.0.center" timestamp="1579704352424">
-      <screen x="0" y="23" width="1920" height="981" />
-    </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579704093905" />
-    <state width="1878" height="235" key="GridCell.Tab.0.center/0.23.1920.981@0.23.1920.981" timestamp="1579704352424" />
-    <state width="1878" height="235" key="GridCell.Tab.0.left" timestamp="1579704352424">
-      <screen x="0" y="23" width="1920" height="981" />
-    </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579704093896" />
-    <state width="1878" height="235" key="GridCell.Tab.0.left/0.23.1920.981@0.23.1920.981" timestamp="1579704352424" />
-    <state width="1878" height="235" key="GridCell.Tab.0.right" timestamp="1579704352425">
-      <screen x="0" y="23" width="1920" height="981" />
-    </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579704093906" />
-    <state width="1878" height="235" key="GridCell.Tab.0.right/0.23.1920.981@0.23.1920.981" timestamp="1579704352425" />
-    <state x="469" y="185" key="SettingsEditor" timestamp="1579704585092">
-      <screen x="0" y="23" width="1920" height="979" />
-    </state>
-    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579703446618" />
-    <state x="469" y="185" key="SettingsEditor/0.23.1920.979@0.23.1920.979" timestamp="1579704585092" />
-    <state x="639" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1579704598958">
-      <screen x="0" y="23" width="1920" height="979" />
-    </state>
-    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579703463480" />
-    <state x="639" y="360" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1579704598958" />
+    <state x="395" y="113" width="856" height="501" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1366.728@0.0.1366.728" timestamp="1579715326769" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
       <option name="birdViewUpdateDelay" value="2000" />
-      <option name="knownFile0" value="file://$PROJECT_DIR$/../../../umlDiagram_fp.suml" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../umlDiagram_fp.suml" />
       <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
     </General>
     <Classdiagram>

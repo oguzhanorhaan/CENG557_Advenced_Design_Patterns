@@ -1,0 +1,1 @@
+Bilgisayarımda Redis ile bir problem yaşadım ve uzun süre zamanımı aldı ama düzeltemedim. Pub-Sub işlemleri için PubSub Design Pattern kullanarak halletim.
