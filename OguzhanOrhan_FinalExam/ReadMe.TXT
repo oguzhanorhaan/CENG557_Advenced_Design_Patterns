@@ -1,1 +1,1 @@
-Bilgisayarımda Redis ile bir problem yaşadım ve uzun süre zamanımı aldı ama düzeltemedim. Pub-Sub işlemleri için PubSub Design Pattern kullanarak halletim.
+Instead of Redis, pub-sub design pattern used in this homework.
